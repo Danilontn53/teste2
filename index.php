@@ -5,10 +5,12 @@
     <title>Title</title>
 	<div class="site-index">
 
-    <div class="jumbotron">
+    <div class="paragrafo">
         <h1>Sejam bem vindos meus companheiros!</h1>
 
-        <p class="paragrafo">Esta view está sendo desenvolvida para que possamos interagir ao meio tecnológico que é programação, depois de tanto o Marlon pedir desenvolvi esta
+        <hr>
+
+        <p>Esta view está sendo desenvolvida para que possamos interagir ao meio tecnológico que é programação, depois de tanto o Marlon pedir desenvolvi esta
             prévia em sua homenagem já que ele apoia a causa.</p>
 
     </div>
@@ -17,15 +19,16 @@
 <style>
     html,
     body {
-        background-color: antiquewhite;
-        /*background-color: #fad7e9;*/
+        /*background-color: antiquewhite;*/
+        background-color: #fad7e9;
     }
 
     .paragrafo{
+        text-align: center;
         width: 640px;
         position: absolute;
-        left: 33%;
-        top: 14%;
+        left: 39%;
+        top: 25%;
         margin-left: -110px;
         margin-top: -40px;
     }
